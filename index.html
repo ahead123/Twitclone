@@ -6,25 +6,31 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
+
     <div class="container">
     <div class="row">
-      <div class="page-header well">
+      <div class="col-md-6  col-md-offset-3 page-header well">
         <h1 class='text-center text-info'>TwitClone</h1>
         <h4 class="text-center text-success">well don't just stand there... start twitting!</h4>
       </div>
     </div>
-      <form>
-        <div class="form-group">
-          <textarea class="form-control status-box" rows="2" placeholder="What's on your mind?"></textarea>
+
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <form>
+            <div class="form-group">
+              <textarea class="form-control status-box" rows="2" placeholder="What's on your mind?"></textarea>
+            </div>
+          </form>
+          <div class="button-group pull-right">
+            <p class="counter">140</p>
+            <a href="#" id="poster" class="btn btn-primary">Post</a>
+          </div>
+           <ul class="posts">
+          </ul>
         </div>
-      </form>
-      <div class="button-group pull-right">
-        <p class="counter">140</p>
-        <a href="#" class="btn btn-primary">Post</a>
       </div>
-    
-      <ul class="posts">
-      </ul>
+
     </div>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

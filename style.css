@@ -5,15 +5,18 @@ body {
   background-color: #eee;
 }
 
-.container {
+/*.container {
   width: 520px;
   margin-top: 20px;
+}*/
+.btn-danger {
+  float: right;
+  margin-top: 5px;
+  margin-right: 3px;
 }
-
 .button-group {
   margin-bottom: 20px;
 }
-
 
 .counter {
   display: inline;
